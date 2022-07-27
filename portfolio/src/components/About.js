@@ -1,16 +1,24 @@
 const About = () => {
   return (
-    <div>
+
+    <section className = "about">
+    <div id = "about">
+    
+    <div className = "mt-20"> 
       <h1> About</h1>
 
-      <h1> Jaclyn Chen</h1>
+
+      </div>
+
+      <h2> Jaclyn Chen</h2>
 
       <p>
-        {" "}
         Hi! I'm Jaclyn, a student at the University of Washington studying
         computer science
       </p>
     </div>
+
+    </section>
   );
 };
 
