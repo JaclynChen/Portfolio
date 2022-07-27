@@ -1,8 +1,8 @@
 const About = () => {
   return (
 
-    <section className = "about">
-    <div id = "about">
+    <section className = "about" id = "about">
+    <div>
     
     <div className = "mt-20"> 
       <h1> About</h1>

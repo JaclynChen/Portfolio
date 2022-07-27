@@ -121,13 +121,13 @@ html{
 }
 
 
-/**************About*********************/
+/***********************About*********************/
 
 
 .about{
 
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 20px 0 100px 0;
   //background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
@@ -152,4 +152,13 @@ html{
   display: block;
 }
  
+/***********************Education*********************/
 
+
+
+
+/***********************Resume*********************/
+
+
+
+/***********************Projects*********************/
