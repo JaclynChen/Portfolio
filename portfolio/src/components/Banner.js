@@ -11,7 +11,7 @@ const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Student", "Software Engineer", "Explorer"];
+  const toRotate = ["Student", "Explorer"];
   const period = 2000;
 
   useEffect(() => {
@@ -68,7 +68,7 @@ const Banner = () => {
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='["Student", "Software Engineer", "Explorer" ]'
+                      data-rotate='["Student", "Explorer" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
@@ -95,7 +95,7 @@ const Banner = () => {
                     isVisible ? "animate__animated animate__zoomIn" : ""
                   }
                 >
-                  <img src={headerImg} alt="Header Img" />
+                {/*  <img src={headerImg} alt="Header Img" /> */}
                 </div>
               )}
             </TrackVisibility>
