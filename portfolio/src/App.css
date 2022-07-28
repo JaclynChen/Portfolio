@@ -37,12 +37,12 @@
   }
 }
 
-/************smoothscroll *****************/
+/************smooth scroll*****************/
 html{
   scroll-behavior: smooth;
 }
 
-/*************** From Portfolio Tutorial Banner **********/
+/***************Banner**********/
 
 .banner {
   margin-top: 0;
@@ -52,8 +52,6 @@ html{
   background-size: cover;
   background-repeat: no-repeat;
 
-
-  //position: absolute;
   margin-left: 100px;
   height: 1800px; 
 
