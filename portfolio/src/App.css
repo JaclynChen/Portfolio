@@ -47,7 +47,7 @@ html{
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  //background-image: url('./assets/img/banner-bg.png');
+  //background-image: url('./assets/img/sky.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -134,7 +134,7 @@ html{
   height: 2000px; 
   position: relative;
 
-  margin-left: 100px; 
+  margin-left: 150px; 
 
 
 }
@@ -176,13 +176,14 @@ html{
   line-height: 1.5em;
   width: 96%;
 }
+
+
 /***********************Education*********************/
 
 
 
 
 /***********************Resume*********************/
-
 
 
 /***********************Projects*********************/

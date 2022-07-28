@@ -1,5 +1,5 @@
 import { Nav } from "react-bootstrap";
-import { BsFillPersonFill, BsPlus, BsFillLightningFill, BsGearFill } from "react-icons/bs";
+import { BsFillPersonFill} from "react-icons/bs";
 import { FaHome, FaFileAlt, FaWrench, FaSun, FaMoon } from "react-icons/fa";
 import {IoMdSchool} from "react-icons/io";
 
@@ -47,7 +47,7 @@ const NavBar = () => {
 const SideBarIcon = ({ icon, text = "tooltip 💡" }) => (
   <div className="sidebar-icon group">
     {icon}
-    <span class="sidebar-tooltip group-hover:scale-100">{text}</span>
+    <span className="sidebar-tooltip group-hover:scale-100">{text}</span>
   </div>
 );
 
@@ -60,11 +60,13 @@ const ThemeIcon = () => {
     <span onClick={handleMode}>
       {darkTheme ? (
         <SideBarIcon
-          icon={<FaSun size="22" className="top-navigation-icon" />}
+          icon={<FaSun size="22" />}
+          text = {"Light Mode"}
         />
       ) : (
         <SideBarIcon
-          icon={<FaMoon size="22" className="top-navigation-icon" />}
+          icon={<FaMoon size="22" />}
+          text={"Dark Mode"}
         />
       )}
     </span>
