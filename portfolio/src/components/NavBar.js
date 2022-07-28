@@ -1,11 +1,13 @@
 import { Nav } from "react-bootstrap";
-import { BsPlus, BsFillLightningFill, BsGearFill } from "react-icons/bs";
-import { FaFire, FaPoo, FaSun, FaMoon } from "react-icons/fa";
+import { BsFillPersonFill, BsPlus, BsFillLightningFill, BsGearFill } from "react-icons/bs";
+import { FaHome, FaFileAlt, FaWrench, FaSun, FaMoon } from "react-icons/fa";
+import {IoMdSchool} from "react-icons/io";
+
 
 //hooks
 import useDarkMode from "../hooks/useDarkMode";
 
-import { HashLink } from "react-router-hash-link";
+//import { HashLink } from "react-router-hash-link";
 
 const NavBar = () => {
   return (
@@ -14,25 +16,25 @@ const NavBar = () => {
                   bg-white dark:bg-gray-900 shadow-lg"
     >
       <Nav.Link href="#home">
-        <SideBarIcon icon={<FaFire size="28" />} text={"Home"} />
+        <SideBarIcon icon={<FaHome size="26" />} text={"Home"} />
       </Nav.Link>
       <Divider />
       <Nav.Link href="#about">
-        <SideBarIcon icon={<BsPlus size="32" />} text={"About"} />
+        <SideBarIcon icon={<BsFillPersonFill size="28" />} text={"About"} />
       </Nav.Link>
       <Nav.Link href="#education">
         <SideBarIcon
-          icon={<BsFillLightningFill size="20" />}
-          text={"education"}
+          icon={<IoMdSchool size="28" />}
+          text={"Education"}
         />
       </Nav.Link>
 
       <Nav.Link href="#resume">
-        <SideBarIcon icon={<FaPoo size="20" />} text={"Resume"} />
+        <SideBarIcon icon={<FaFileAlt size="24" />} text={"Resume"} />
       </Nav.Link>
 
       <Nav.Link href="#projects">
-        <SideBarIcon icon={<BsGearFill size="22" />} text={"Projects"} />
+        <SideBarIcon icon={<FaWrench size="22" />} text={"Projects"} />
       </Nav.Link>
 
       <Divider />

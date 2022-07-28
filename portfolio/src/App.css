@@ -149,7 +149,33 @@ html{
   margin-bottom: 20px;
   display: block;
 }
- 
+
+.about h2{
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+
+}
+
+.about h3{
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.about p {
+  color: #B8B8B8;
+  font-size: 22px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
 /***********************Education*********************/
 
 
