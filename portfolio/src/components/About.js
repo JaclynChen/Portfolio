@@ -1,6 +1,9 @@
 import { FaGithub, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
 import { SiDevpost } from "react-icons/si";
-import { Nav } from "react-bootstrap";
+import { Nav, Button } from "react-bootstrap";
+
+
+import {useState } from 'react';
 
 const About = () => {
   return (
@@ -34,10 +37,11 @@ const About = () => {
             <SideBarIcon icon={<SiDevpost size="28" />} />
           </Nav.Link>
 
-        
-         <HoverIcon icon={<FaEnvelope size="28" />} text={"jaclync5@cs.washington.edu"}/>
-          
+     
+        {/*  <HoverIcon 
+          icon={<FaEnvelope size="28" />} text={"jaclync5@cs.washington.edu"}/> */}
 
+          <EmailIcon/>
 
         </div>
 
@@ -52,10 +56,48 @@ const SideBarIcon = ({ icon }) => (
 );
 
 const HoverIcon = ({ icon, text}) => (
+
+  <Button onClick ={CopyEmail}> 
     <div className="sidebar-icon group">
       {icon}
       <span className="sidebar-tooltip group-hover:scale-100">{text}</span>
     </div>
+
+  </Button>
+
   );
+
+
+function CopyEmail(){
+
+navigator.clipboard.writeText("jaclync5@cs.washington.edu"); 
+
+}
+
+//Testing
+const EmailIcon = () => {
+  const [emailTip, setEmailTip] = useState(1);
+  const handleMode = () => setEmailTip(!emailTip);
+  const handleModeOut = () => {
+    if(!emailTip){
+    setEmailTip(!emailTip);
+    }
+
+  }
+  return (
+    <span onClick={handleMode} onMouseOut={handleModeOut}>
+      {emailTip ? (
+        <HoverIcon 
+        icon={<FaEnvelope size="28" />} text={"jaclync5@cs.washington.edu"}/>
+        
+      ) : (
+        <HoverIcon 
+          icon={<FaEnvelope size="28" />} text={"Copied email!"}/>
+      )}
+    </span>
+  );
+};
+
+
 
 export default About;

@@ -16,23 +16,17 @@ const Resume = () => {
           rel="noopener noreferrer"
         >
           <Button className = "custom-button">
-          Open and download pdf{" "}
+          Open and download pdf
 
           </Button>
         </a>
         
-
-
         <Document file={Jaclyn_Chen_Resume_June22}>
           <Page pageNumber={1} />
         </Document>
       </div>
     </section>
   );
-};
-
-const openInNewTab = (url) => {
-  window.open(url, "_blank", "noopener,noreferrer");
 };
 
 export default Resume;

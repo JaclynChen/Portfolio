@@ -185,5 +185,13 @@ html{
 
 /***********************Resume*********************/
 
+.react-pdf__Page__textContent.textLayer{
+  visibility: hidden; 
 
+}
+
+ .react-pdf_Page_canvas{
+  width: 100%; 
+  
+}
 /***********************Projects*********************/
