@@ -66,7 +66,7 @@ const Banner = () => {
                     }
                   >
                     <h1>{`Hi! I'm Jaclyn`} </h1>
-                    <h1>
+                    <h2>
                       <span
                         className="txt-rotate"
                         data-period="1000"
@@ -74,7 +74,7 @@ const Banner = () => {
                       >
                         <span className="wrap">{text}</span>
                       </span>
-                    </h1>
+                    </h2>
 
                 
                   </div>

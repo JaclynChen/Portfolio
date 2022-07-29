@@ -1,9 +1,11 @@
-import { FaGithub, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaEnvelope, FaFileAlt } from "react-icons/fa";
 import { SiDevpost } from "react-icons/si";
 import { Nav, Button } from "react-bootstrap";
 
+import Jaclyn_Chen_Resume_June22 from "../assets/Jaclyn_Chen_Resume_June22.pdf";
 
-import {useState } from 'react';
+
+import {React, useState } from 'react';
 
 const About = () => {
   return (
@@ -44,6 +46,15 @@ const About = () => {
           <EmailIcon/>
 
         </div>
+
+
+        <a
+        href={Jaclyn_Chen_Resume_June22}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button className="custom-button">View resume pdf</Button>
+      </a>
 
         <h3>Skills</h3>
       </div>
