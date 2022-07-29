@@ -1,6 +1,6 @@
 import { Nav } from "react-bootstrap";
 import { BsFillPersonFill} from "react-icons/bs";
-import { FaHome, FaFileAlt, FaWrench, FaSun, FaMoon } from "react-icons/fa";
+import { FaHome, FaWrench, FaSun, FaMoon } from "react-icons/fa";
 import {IoMdSchool} from "react-icons/io";
 
 
@@ -27,10 +27,6 @@ const NavBar = () => {
           icon={<IoMdSchool size="28" />}
           text={"Education"}
         />
-      </Nav.Link>
-
-      <Nav.Link href="#resume">
-        <SideBarIcon icon={<FaFileAlt size="24" />} text={"Resume"} />
       </Nav.Link>
 
       <Nav.Link href="#projects">

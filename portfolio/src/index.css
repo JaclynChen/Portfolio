@@ -60,7 +60,13 @@ code {
     font-bold
     transition-all duration-300 ease-linear
     cursor-pointer lg:shadow-lg
-    p-4;
+    p-4
+    flex
+    flex-row
+    justify-items-center
+    items-center
+    
+    
     
 }
 

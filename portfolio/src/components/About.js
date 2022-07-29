@@ -48,12 +48,18 @@ const About = () => {
         </div>
 
 
-        <a
+        <a 
         href={Jaclyn_Chen_Resume_June22}
         target="_blank"
         rel="noopener noreferrer"
+        
       >
-        <Button className="custom-button">View resume pdf</Button>
+        <div className="flex justify-items-center justify-center items-center">
+        <Button className="custom-button">View resume 
+        <div className = "ml-2" ><FaFileAlt size = "24" /></div>
+        </Button>
+
+        </div>
       </a>
 
         <h3>Skills</h3>
