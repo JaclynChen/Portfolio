@@ -1,21 +1,33 @@
+import React from "react";
+import ProjectCard from "../templates/projectTemplate";
+import { Container, Row, Col } from "react-bootstrap";
+
+
+
+
 const Projects = () => {
-    return (
+
+
+
+  return(
   
-      <section className = "about" id = "projects">
+    <section className="about" id="projects">
+
       <div>
+     
+       
+          <h1> Projects</h1>
+
       
-      <div className = "mt-20"> 
-        <h1> Projects</h1>
+    
+    </div>
+
+       
+     
+    </section>
+  );
   
-  
-        </div>
-  
-      
-      </div>
-  
-      </section>
-    );
-  };
-  
-  export default Projects;
-  
+};
+
+
+export default Projects;
