@@ -64,6 +64,27 @@ code {
     
 }
 
+
+
+
+
+/******Projects*****/
+
+
+
+.projectCard{
+  @apply h-56 w-96 
+   border border-gray-200
+   justify-items-center
+   items-center
+   p-10
+   rounded-md
+   outline-2
+   flex-1
+  
+
+}
+
 @tailwind utilities;
 
 ::-webkit-scrollbar {

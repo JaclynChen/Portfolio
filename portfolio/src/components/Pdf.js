@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 import { Document, Page,pdfjs } from 'react-pdf';
 import resume_june_22 from "../assets/Jaclyn_Chen_Resume_June22.pdf";
 
@@ -27,4 +27,4 @@ const ResumePdf = () =>{
 
 }
 
-export default ResumePdf;
+export default ResumePdf; */
