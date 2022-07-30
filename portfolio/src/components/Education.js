@@ -1,69 +1,116 @@
-import * as React from 'react';
+import * as React from "react";
 
-import Timeline from '@mui/lab/Timeline';
-import TimelineItem from '@mui/lab/TimelineItem';
-import TimelineSeparator from '@mui/lab/TimelineSeparator';
-import TimelineConnector from '@mui/lab/TimelineConnector';
-import TimelineContent from '@mui/lab/TimelineContent';
-import TimelineDot from '@mui/lab/TimelineDot';
-
-
+import Timeline from "@mui/lab/Timeline";
+import TimelineItem from "@mui/lab/TimelineItem";
+import TimelineSeparator from "@mui/lab/TimelineSeparator";
+import TimelineConnector from "@mui/lab/TimelineConnector";
+import TimelineContent from "@mui/lab/TimelineContent";
+import TimelineDot from "@mui/lab/TimelineDot";
+import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 
 const Education = () => {
-    return (
-  
-      <section className = "about" id = "education">
+  return (
+    <section className="about" id="education">
       <div>
-      
-      <div className = "mt-20"> 
-        <h1>Education</h1>
+        <div className="mt-20">
+          <h1>Education</h1>
 
+          <div>
+            <div className="grid justify-items-start p-6">
+              <Timeline>
+                <TimelineItem>
+                  <TimelineOppositeContent display="none"></TimelineOppositeContent>
 
+                  <TimelineSeparator>
+                    <TimelineDot variant="outlined" />
+                    <TimelineConnector />
+                  </TimelineSeparator>
+                  <TimelineContent>
+                    <h3> University of Washington</h3>
+                    <p>2021 - 2024; Seattle, WA</p>
+                    <p>B.S. in Computer Science</p>
+                    <p>
+                      Direct Admit to the Paul G. Allen School of Computer
+                      Science and Engineering
+                    </p>
 
-        
+                    
+                      <h4 className="py-4"> Coursework </h4>
 
+                      <ul>
+                        <li className="custom-li">
+                          <p>CSE 143</p>
+                        </li>
+                        <li className="custom-li">
+                          <p>CSE 311</p>
+                        </li>
+                        <li className="custom-li">
+                          <p>CSE 331</p>
+                        </li>
+                        <li className="custom-li">
+                          <p>CSE 332</p>
+                        </li>
+                        <li className="custom-li">
+                          <p>CSE 312</p>
+                        </li>
+                        <li className="custom-li">
+                          <p>CSE 391</p>
+                        </li>
+                        <li className="custom-li">
+                          <p>CSE 351</p>
+                        </li>
+                        <li className="custom-li">
+                          <p>MATH 126</p>
+                        </li>
+                        <li className="custom-li">
+                          <p>MATH 208</p>
+                        </li>
+                      </ul>
 
+                      <h4 className="py-4">Extracurriculars </h4>
+                   
+                  </TimelineContent>
+                </TimelineItem>
 
-        <Timeline>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>Eat</TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>Code</TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
-        </TimelineSeparator>
-        <TimelineContent>Sleep</TimelineContent>
-      </TimelineItem>
-    </Timeline>
+                <TimelineItem>
+                  <TimelineOppositeContent display="none"></TimelineOppositeContent>
 
+                  <TimelineSeparator>
+                    <TimelineDot variant="outlined" />
+                    <TimelineConnector />
+                  </TimelineSeparator>
+                  <TimelineContent>
+                    <h3>Ridge High School</h3>
+                    <p>2017-2021; Basking Ridge, NJ</p>
 
+                    <h4 className="py-4"> Coursework </h4>
 
+                    <li className="custom-li">
+                      <p>
+                        AP Computer Science, AP Calculus AB, AP Calculus BC, AP
+                        Physics I, AP Physic C Mechanics, AP Physics C
+                        Electricity and Magnetism, AP Biology, AP U.S. History,
+                        AP U.S. Government and Politics, AP Microeconomics, AP
+                        Macroeconomics, AP Language and Composition, AP
+                        Literature and Composition, AP French{" "}
+                      </p>
+                    </li>
 
+                    <h4 className="py-4">Extracurriculars </h4>
+                  </TimelineContent>
+                </TimelineItem>
 
-
-
-        <h3>Coursework</h3>
-  
-  
+                <TimelineItem>
+                  <TimelineOppositeContent display="none"></TimelineOppositeContent>
+                  <TimelineSeparator></TimelineSeparator>
+                </TimelineItem>
+              </Timeline>
+            </div>
+          </div>
         </div>
-  
-      
       </div>
-  
-      </section>
-    );
-  };
-  
-  export default Education;
-  
+    </section>
+  );
+};
+
+export default Education;
