@@ -26,8 +26,9 @@ const Education = () => {
                     <TimelineConnector />
                   </TimelineSeparator>
                   <TimelineContent>
-                    <h3> University of Washington</h3>
-                    <p>2021 - 2024; Seattle, WA</p>
+                    <h3 className="pb-4"> University of Washington</h3>
+                    <p>2021 - 2024</p>
+                    <p>Seattle, WA</p>
                     <p>B.S. in Computer Science</p>
                     <p>
                       Direct Admit to the Paul G. Allen School of Computer
@@ -81,7 +82,8 @@ const Education = () => {
                   </TimelineSeparator>
                   <TimelineContent>
                     <h3>Ridge High School</h3>
-                    <p>2017-2021; Basking Ridge, NJ</p>
+                    <p>2017-2021</p>
+                    <p>Basking Ridge, NJ</p>
 
                     <h4 className="py-4"> Coursework </h4>
 
