@@ -13,7 +13,7 @@ const Projects = () => {
       title: "Project Name",
       description: " A description blurb",
       //imgUrl: projImg1,
-      link: "#home",
+      link: "#projectOne",
       tags: ["Python", "Django"],
     },
     {
@@ -71,5 +71,8 @@ const Projects = () => {
     </section>
   );
 };
+
+
+
 
 export default Projects;

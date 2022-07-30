@@ -7,6 +7,7 @@ import About from './components/About';
 import Education from './components/Education';
 import Projects from './components/Projects';
 
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,8 @@ function App() {
       <About />
       <Education />
       <Projects />
+
+      
     </div>
   );
 }
