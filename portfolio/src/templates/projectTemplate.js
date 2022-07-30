@@ -7,29 +7,33 @@ const ProjectCard = ({title, description, link, tags}) =>{
 
     return (
 
-      <div className="projectCard"> 
       <Nav.Link href= {link}>
 
-      <h3 className="pb-4">{title}</h3>
+      <div className="projectCard"> 
+      
 
-      <p>{description}</p>
+      <h3 className="my-4">{title}</h3>
+
+      <p className="m-0">{description}</p>
 
 
 
-      <div> 
+      <div className="mt-16 mx-4 bottom-1 flex items-end"> 
        
        {tags.map((tagTitle, index) => {
 
-        return <Badge key={index} bg="primary">{tagTitle}</Badge>;
+        return <Badge key={index} className="badge">{tagTitle}</Badge>;
 
        })}
 
         </div> 
 
-      </Nav.Link>
+     
       
 
       </div>
+
+      </Nav.Link>
         
 
     

@@ -84,13 +84,23 @@ code {
    border border-gray-200 
    justify-items-center
    items-center
-   p-10
+   p-4
    rounded-md hover:rounded-xl rounded-3xl
    transition-all duration-300 ease-linear
    cursor-pointer shadow-lg
    outline-2
    flex-1
   
+}
+
+.badge{
+  @apply bg-white
+  border border-gray-200 
+  rounded-xl
+  py-2
+  px-4
+  m-1
+
 
 }
 
