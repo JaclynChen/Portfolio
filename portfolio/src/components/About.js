@@ -15,7 +15,7 @@ const About = () => {
         </div>
 
         <div className="grid justify-items-start">
-          <h2 className="pt-8"> Jaclyn Chen</h2>
+          <h2 className="pt-12"> Jaclyn Chen</h2>
 
           <p className="text-left">
             I'm a student at the University of Washington studying computer
@@ -31,7 +31,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="flex space-x-4 justify-center justify-items-center p-8">
+        <div className="flex space-x-4 justify-center justify-items-center p-8 mt-4">
           <Nav.Link href="https://www.linkedin.com/in/jaclyn-chen5/">
             <SideBarIcon icon={<FaLinkedinIn size="28" />} />
           </Nav.Link>
@@ -78,6 +78,12 @@ const About = () => {
           </li>
           <li className="custom-li">
             <p className="text-left">Typescript</p>
+          </li>
+          <li className="custom-li">
+            <p className="text-left"> HTML</p>
+          </li>
+          <li className="custom-li">
+            <p className="text-left">CSS</p>
           </li>
           <li className="custom-li">
             <p className="text-left">C++</p>

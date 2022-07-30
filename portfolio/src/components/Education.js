@@ -16,7 +16,7 @@ const Education = () => {
           <h1>Education</h1>
 
           <div>
-            <div className="grid justify-items-start p-6">
+            <div className="grid justify-items-start p-6 mt-8">
               <Timeline>
                 <TimelineItem>
                   <TimelineOppositeContent display="none"></TimelineOppositeContent>
