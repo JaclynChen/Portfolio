@@ -10,41 +10,48 @@ import TrackVisibility from "react-on-screen";
 const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Project Name",
+      description: " A description blurb",
       //imgUrl: projImg1,
       link: "#home",
+      tags: ["Python", "Django"],
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Project Name",
+      description: " A description blurb",
       //imgUrl: projImg1,
       link: "#home",
+      tags: ["Python", "Django"],
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      // imgUrl: projImg1,
-      link: "#home",
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Project Name",
+      description: " A description blurb",
       //imgUrl: projImg1,
       link: "#home",
+      tags: ["Python", "Django"],
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Project Name",
+      description: " A description blurb",
       //imgUrl: projImg1,
       link: "#home",
+      tags: ["Python", "Django"],
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Project Name",
+      description: " A description blurb",
       //imgUrl: projImg1,
       link: "#home",
+      tags: ["Python", "Django"],
     },
+    {
+      title: "Project Name",
+      description: " A description blurb",
+      //imgUrl: projImg1,
+      link: "#home",
+      tags: ["Python", "Django"],
+    },
+    
   ];
 
   return (

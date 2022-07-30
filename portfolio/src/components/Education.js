@@ -38,6 +38,7 @@ const Education = () => {
                     
                       <h4 className="py-4"> Coursework </h4>
 
+
                       <ul>
                         <li className="custom-li">
                           <p>CSE 143</p>
@@ -68,7 +69,25 @@ const Education = () => {
                         </li>
                       </ul>
 
+
                       <h4 className="py-4">Extracurriculars </h4>
+                      <ul>
+                        <li className="custom-li ">
+                          <p className="font-semibold">Outreach Director - WOOF 3D</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et odio ex.
+                             Curabitur eu maximus nulla. Class aptent taciti sociosqu ad litora torquent
+                              per conubia nostra, per inceptos himenaeos. Praesent in ex erat. Aenean sed 
+                              dui lectus. Vestibulum ante ipsum primis in faucibus orci lu</p>
+                        </li>
+                        <li className="custom-li">
+                          <p className="font-semibold pt-4">Project and Tech Lead - WOOF 3D</p>
+                          <p className="pb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et odio ex.
+                             Curabitur eu maximus nulla. Class aptent taciti sociosqu ad litora torquent
+                              per conubia nostra, per inceptos himenaeos. Praesent in ex erat. Aenean sed 
+                              dui lectus. Vestibulum ante ipsum primis in faucibus orci lu</p>
+                        </li>
+                       
+                      </ul>
                    
                   </TimelineContent>
                 </TimelineItem>
@@ -81,11 +100,13 @@ const Education = () => {
                     <TimelineConnector />
                   </TimelineSeparator>
                   <TimelineContent>
-                    <h3>Ridge High School</h3>
-                    <p>2017-2021</p>
+                    <h3 className="pb-4">Ridge High School</h3>
+                    <p>2017 - 2021</p>
                     <p>Basking Ridge, NJ</p>
 
                     <h4 className="py-4"> Coursework </h4>
+
+                    <ul>
 
                     <li className="custom-li">
                       <p>
@@ -97,6 +118,8 @@ const Education = () => {
                         Literature and Composition, AP French{" "}
                       </p>
                     </li>
+
+                    </ul>
 
                     <h4 className="py-4">Extracurriculars </h4>
                   </TimelineContent>
