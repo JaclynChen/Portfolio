@@ -1,11 +1,11 @@
 import React from "react";
 import ProjectCard from "../templates/projectTemplate";
-import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
+//import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 
-import projImg1 from "../assets/img/project-img1.png";
+//import projImg1 from "../assets/img/project-img1.png";
 
 import "animate.css";
-import TrackVisibility from "react-on-screen";
+//import TrackVisibility from "react-on-screen";
 
 const Projects = () => {
   const projects = [
