@@ -90,17 +90,21 @@ code {
    cursor-pointer shadow-lg
    outline-2
    flex-1
+   relative
   
 }
 
 .badge{
   @apply bg-white
   border border-gray-200 
-  rounded-xl
-  py-2
+  rounded-md
+  py-1
   m-1
-  text-sm
+  text-xs
   text-center
+  w-fit
+  px-3
+  
 
 
 }
