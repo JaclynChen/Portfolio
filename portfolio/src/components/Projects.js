@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCard from "../templates/projectTemplate";
+import ProjectCard from "../templates/CardTemplate";
 //import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 
 //import projImg1 from "../assets/img/project-img1.png";
@@ -13,14 +13,14 @@ const Projects = () => {
       title: "Weekly Wiggles",
       description: " A description blurb",
       //imgUrl: projImg1,
-      link: "#projectOne",
+      link: "/weeklywiggles",
       tags: ["Python", "Typescript", "React", "Django",],
     },
     {
-      title: "Portfolio Website",
+      title: "Portfolio",
       description: " A description blurb",
       //imgUrl: projImg1,
-      link: "#home",
+      link: "/portfolio",
       tags: ["React", "Javascript", "Tailwind CSS", ],
     },
     {

@@ -15,21 +15,21 @@ const NavBar = () => {
       className="fixed top-0 left-0 h-screen w-16 flex flex-col
                   bg-white dark:bg-gray-900 shadow-lg"
     >
-      <Nav.Link href="#home">
+      <Nav.Link href="/#home">
         <SideBarIcon icon={<FaHome size="26" />} text={"Home"} />
       </Nav.Link>
       <Divider />
-      <Nav.Link href="#about">
+      <Nav.Link href="/#about">
         <SideBarIcon icon={<BsFillPersonFill size="28" />} text={"About"} />
       </Nav.Link>
-      <Nav.Link href="#education">
+      <Nav.Link href="/#education">
         <SideBarIcon
           icon={<IoMdSchool size="28" />}
           text={"Education"}
         />
       </Nav.Link>
 
-      <Nav.Link href="#projects">
+      <Nav.Link href="/#projects">
         <SideBarIcon icon={<FaWrench size="22" />} text={"Projects"} />
       </Nav.Link>
 

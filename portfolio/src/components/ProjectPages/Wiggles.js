@@ -1,13 +1,13 @@
 import React from "react";
 
-const Template = () => {
+const Wiggles= () => {
   return (
     <section>
       <div className="about">
-        <h1>Project Name</h1>
+        <h1 className="mt-20">Weekly Wiggles</h1>
       </div>
     </section>
   );
 };
 
-export default Template;
+export default Wiggles;

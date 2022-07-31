@@ -1,23 +1,25 @@
-
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 
-import NavBar from './components/NavBar';
-import Banner from './components/Banner';
-import About from './components/About';
-import Education from './components/Education';
-import Projects from './components/Projects';
+import NavBar from "./components/NavBar";
+import Main from "./components/Main";
+import Portfolio from "./components/ProjectPages/PortfolioWebsite";
+import Wiggles from "./components/ProjectPages/Wiggles";
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="wrapper">
       <NavBar />
-      <Banner />
-      <About />
-      <Education />
-      <Projects />
 
-      
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main />} />
+
+          <Route path="/portfolio" element={<Portfolio/>} />
+          <Route path="/weeklyWiggles" element={<Wiggles/>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

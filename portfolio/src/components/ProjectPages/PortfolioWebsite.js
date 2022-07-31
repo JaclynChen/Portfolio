@@ -1,14 +1,13 @@
-const PortfolioWebsite = () =>{
-    return(
-  
-      <div id="PortfolioWebsite">
-  
-        <p>hi</p>
-      </div>
-  
-    );
-  
-  
-  }
+import React from "react";
 
-  export default PortfolioWebsite; 
+const PortfolioWebsite = () => {
+  return (
+    <section>
+      <div className="about">
+        <h1>Portfolio</h1>
+      </div>
+    </section>
+  );
+};
+
+export default PortfolioWebsite;
