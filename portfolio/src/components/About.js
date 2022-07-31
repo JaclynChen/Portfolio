@@ -86,10 +86,10 @@ const About = () => {
             <p className="text-left">CSS</p>
           </li>
           <li className="custom-li">
-            <p className="text-left">C++</p>
+            <p className="text-left">C</p>
           </li>
           <li className="custom-li">
-            <p className="text-left">C#</p>
+            <p className="text-left">C++</p>
           </li>
           <li className="custom-li">
             <p className="text-left">Dart</p>

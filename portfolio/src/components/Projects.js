@@ -10,46 +10,46 @@ import "animate.css";
 const Projects = () => {
   const projects = [
     {
-      title: "Project Name",
+      title: "Weekly Wiggles",
       description: " A description blurb",
       //imgUrl: projImg1,
       link: "#projectOne",
-      tags: ["Python", "Django"],
+      tags: ["Python", "Typescript", "React", "Django",],
     },
     {
-      title: "Project Name",
+      title: "Portfolio Website",
       description: " A description blurb",
       //imgUrl: projImg1,
       link: "#home",
-      tags: ["Python", "Django"],
+      tags: ["React", "Javascript", "Tailwind CSS", ],
     },
     {
-      title: "Project Name",
+      title: "Penn Wharton Budget Model",
       description: " A description blurb",
       //imgUrl: projImg1,
       link: "#home",
-      tags: ["Python", "Django"],
+      tags: ["Internship", "Python", "Flask", "NumPy", "Pandas",],
     },
     {
-      title: "Project Name",
+      title: "Moonlight",
       description: " A description blurb",
       //imgUrl: projImg1,
       link: "#home",
-      tags: ["Python", "Django"],
+      tags: ["C/C++", "IoT", "CAD", "3D-Printing", "Woodworking"],
     },
     {
-      title: "Project Name",
+      title: "Phoenix",
       description: " A description blurb",
       //imgUrl: projImg1,
       link: "#home",
-      tags: ["Python", "Django"],
+      tags: ["Hackathon", "Python", "Google Cloud Vision", "Flask", "C/C++", "IoT"],
     },
     {
-      title: "Project Name",
+      title: "AFloat",
       description: " A description blurb",
       //imgUrl: projImg1,
       link: "#home",
-      tags: ["Python", "Django"],
+      tags: ["Hackathon", "C/C++", "IoT", "HTML", "CSS", "Google Cloud"],
     },
     
   ];

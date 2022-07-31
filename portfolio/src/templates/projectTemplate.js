@@ -18,7 +18,7 @@ const ProjectCard = ({title, description, link, tags}) =>{
 
 
 
-      <div className="mt-16 mx-4 bottom-1 flex items-end"> 
+      <div className=" mx-4 bottom-1 flex items-end  grid grid-cols-3"> 
        
        {tags.map((tagTitle, index) => {
 
