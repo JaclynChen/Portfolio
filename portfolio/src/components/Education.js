@@ -7,6 +7,8 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
+import Collapsible from "react-collapsible";
+import { BiCaretDown } from "react-icons/bi";
 
 const Education = () => {
   return (
@@ -189,149 +191,159 @@ const Education = () => {
                       </li>
                     </ul>
 
-                    <h4 className="py-4">Extracurriculars </h4>
+                    <Collapsible
+                      trigger={
+                        <div className="flex">
+                          {" "}
+                          <h4 className="py-4">Extracurriculars </h4>{" "}
+                          <div className="mt-1">
+                            <BiCaretDown size="32" />
+                          </div>{" "}
+                        </div>
+                      }
+                    >
+                      <ul>
+                        <li className="custom-li">
+                          <p className="font-semibold">Computer Science Club</p>
 
-                    <ul>
-                      <li className="custom-li">
-                        <p className="font-semibold">Computer Science Club</p>
+                          <Timeline>
+                            <TimelineItem>
+                              <TimelineOppositeContent display="none"></TimelineOppositeContent>
+                              <TimelineSeparator>
+                                <TimelineDot variant="outlined" />
+                                <TimelineConnector />
+                              </TimelineSeparator>
+                              <TimelineContent>
+                                <p className="font-semibold">Co-President </p>
+                                <p className="italic">2019 - 2021</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                              </TimelineContent>
+                            </TimelineItem>
+                          </Timeline>
+                        </li>
 
-                        <Timeline>
-                          <TimelineItem>
-                            <TimelineOppositeContent display="none"></TimelineOppositeContent>
-                            <TimelineSeparator>
-                              <TimelineDot variant="outlined" />
-                              <TimelineConnector />
-                            </TimelineSeparator>
-                            <TimelineContent>
-                              <p className="font-semibold">Co-President </p>
-                              <p className="italic">2019 - 2021</p>
-                              <p>Lorem ipsum dolor sit amet, consectetur</p>
-                            </TimelineContent>
-                          </TimelineItem>
-                        </Timeline>
-                      </li>
+                        <li className="custom-li">
+                          <p className="font-semibold">RidgeHacks</p>
 
-                      <li className="custom-li">
-                        <p className="font-semibold">RidgeHacks</p>
+                          <Timeline>
+                            <TimelineItem>
+                              <TimelineOppositeContent display="none"></TimelineOppositeContent>
+                              <TimelineSeparator>
+                                <TimelineDot variant="outlined" />
+                                <TimelineConnector />
+                              </TimelineSeparator>
+                              <TimelineContent>
+                                <p className="font-semibold">
+                                  Co-Executive Director
+                                </p>
+                                <p className="italic">2019 - 2021</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                              </TimelineContent>
+                            </TimelineItem>
 
-                        <Timeline>
-                          <TimelineItem>
-                            <TimelineOppositeContent display="none"></TimelineOppositeContent>
-                            <TimelineSeparator>
-                              <TimelineDot variant="outlined" />
-                              <TimelineConnector />
-                            </TimelineSeparator>
-                            <TimelineContent>
-                              <p className="font-semibold">
-                                Co-Executive Director
-                              </p>
-                              <p className="italic">2019 - 2021</p>
-                              <p>Lorem ipsum dolor sit amet, consectetur</p>
-                            </TimelineContent>
-                          </TimelineItem>
+                            <TimelineItem>
+                              <TimelineOppositeContent display="none"></TimelineOppositeContent>
+                              <TimelineSeparator>
+                                <TimelineDot variant="outlined" />
+                                <TimelineConnector />
+                              </TimelineSeparator>
+                              <TimelineContent>
+                                <p className="font-semibold">
+                                  Hackathon Organizer
+                                </p>
+                                <p className="italic">2018 - 2019</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                              </TimelineContent>
+                            </TimelineItem>
+                          </Timeline>
+                        </li>
 
-                          <TimelineItem>
-                            <TimelineOppositeContent display="none"></TimelineOppositeContent>
-                            <TimelineSeparator>
-                              <TimelineDot variant="outlined" />
-                              <TimelineConnector />
-                            </TimelineSeparator>
-                            <TimelineContent>
-                              <p className="font-semibold">
-                                Hackathon Organizer
-                              </p>
-                              <p className="italic">2018 - 2019</p>
-                              <p>Lorem ipsum dolor sit amet, consectetur</p>
-                            </TimelineContent>
-                          </TimelineItem>
-                        </Timeline>
-                      </li>
+                        <li className="custom-li">
+                          <p className="font-semibold">
+                            Technology and Engineering Club
+                          </p>
 
-                      <li className="custom-li">
-                        <p className="font-semibold">
-                          Technology and Engineering Club
-                        </p>
+                          <Timeline>
+                            <TimelineItem>
+                              <TimelineOppositeContent display="none"></TimelineOppositeContent>
+                              <TimelineSeparator>
+                                <TimelineDot variant="outlined" />
+                                <TimelineConnector />
+                              </TimelineSeparator>
+                              <TimelineContent>
+                                <p className="font-semibold">President </p>
+                                <p className="italic">2018 - 2021</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                              </TimelineContent>
+                            </TimelineItem>
+                          </Timeline>
+                        </li>
 
-                        <Timeline>
-                          <TimelineItem>
-                            <TimelineOppositeContent display="none"></TimelineOppositeContent>
-                            <TimelineSeparator>
-                              <TimelineDot variant="outlined" />
-                              <TimelineConnector />
-                            </TimelineSeparator>
-                            <TimelineContent>
-                              <p className="font-semibold">President </p>
-                              <p className="italic">2018 - 2021</p>
-                              <p>Lorem ipsum dolor sit amet, consectetur</p>
-                            </TimelineContent>
-                          </TimelineItem>
-                        </Timeline>
-                      </li>
+                        <li className="custom-li">
+                          <p className="font-semibold">Legwork for Lungs</p>
 
-                      <li className="custom-li">
-                        <p className="font-semibold">Legwork for Lungs</p>
+                          <Timeline>
+                            <TimelineItem>
+                              <TimelineOppositeContent display="none"></TimelineOppositeContent>
+                              <TimelineSeparator>
+                                <TimelineDot variant="outlined" />
+                                <TimelineConnector />
+                              </TimelineSeparator>
+                              <TimelineContent>
+                                <p className="font-semibold">Vice-President</p>
+                                <p className="italic">2019 - 2021</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                              </TimelineContent>
+                            </TimelineItem>
 
-                        <Timeline>
-                          <TimelineItem>
-                            <TimelineOppositeContent display="none"></TimelineOppositeContent>
-                            <TimelineSeparator>
-                              <TimelineDot variant="outlined" />
-                              <TimelineConnector />
-                            </TimelineSeparator>
-                            <TimelineContent>
-                              <p className="font-semibold">Vice-President</p>
-                              <p className="italic">2019 - 2021</p>
-                              <p>Lorem ipsum dolor sit amet, consectetur</p>
-                            </TimelineContent>
-                          </TimelineItem>
+                            <TimelineItem>
+                              <TimelineOppositeContent display="none"></TimelineOppositeContent>
+                              <TimelineSeparator>
+                                <TimelineDot variant="outlined" />
+                                <TimelineConnector />
+                              </TimelineSeparator>
+                              <TimelineContent>
+                                <p className="font-semibold">Treasurer</p>
+                                <p className="italic">2018 - 2019</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                              </TimelineContent>
+                            </TimelineItem>
+                          </Timeline>
+                        </li>
 
-                          <TimelineItem>
-                            <TimelineOppositeContent display="none"></TimelineOppositeContent>
-                            <TimelineSeparator>
-                              <TimelineDot variant="outlined" />
-                              <TimelineConnector />
-                            </TimelineSeparator>
-                            <TimelineContent>
-                              <p className="font-semibold">Treasurer</p>
-                              <p className="italic">2018 - 2019</p>
-                              <p>Lorem ipsum dolor sit amet, consectetur</p>
-                            </TimelineContent>
-                          </TimelineItem>
-                        </Timeline>
-                      </li>
+                        <li className="custom-li">
+                          <p className="font-semibold">Varsity Fencing</p>
 
-                      <li className="custom-li">
-                        <p className="font-semibold">Varsity Fencing</p>
+                          <Timeline>
+                            <TimelineItem>
+                              <TimelineOppositeContent display="none"></TimelineOppositeContent>
+                              <TimelineSeparator>
+                                <TimelineDot variant="outlined" />
+                                <TimelineConnector />
+                              </TimelineSeparator>
+                              <TimelineContent>
+                                <p className="font-semibold">Squad Captain</p>
+                                <p className="italic">2019 - 2020</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                              </TimelineContent>
+                            </TimelineItem>
 
-                        <Timeline>
-                          <TimelineItem>
-                            <TimelineOppositeContent display="none"></TimelineOppositeContent>
-                            <TimelineSeparator>
-                              <TimelineDot variant="outlined" />
-                              <TimelineConnector />
-                            </TimelineSeparator>
-                            <TimelineContent>
-                              <p className="font-semibold">Squad Captain</p>
-                              <p className="italic">2019 - 2020</p>
-                              <p>Lorem ipsum dolor sit amet, consectetur</p>
-                            </TimelineContent>
-                          </TimelineItem>
-
-                          <TimelineItem>
-                            <TimelineOppositeContent display="none"></TimelineOppositeContent>
-                            <TimelineSeparator>
-                              <TimelineDot variant="outlined" />
-                              <TimelineConnector />
-                            </TimelineSeparator>
-                            <TimelineContent>
-                              <p className="font-semibold">Varsity Fencer</p>
-                              <p className="italic">2018 - 2019</p>
-                              <p>Lorem ipsum dolor sit amet, consectetur</p>
-                            </TimelineContent>
-                          </TimelineItem>
-                        </Timeline>
-                      </li>
-                    </ul>
+                            <TimelineItem>
+                              <TimelineOppositeContent display="none"></TimelineOppositeContent>
+                              <TimelineSeparator>
+                                <TimelineDot variant="outlined" />
+                                <TimelineConnector />
+                              </TimelineSeparator>
+                              <TimelineContent>
+                                <p className="font-semibold">Varsity Fencer</p>
+                                <p className="italic">2018 - 2019</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                              </TimelineContent>
+                            </TimelineItem>
+                          </Timeline>
+                        </li>
+                      </ul>
+                    </Collapsible>
                   </TimelineContent>
                 </TimelineItem>
 
