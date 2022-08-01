@@ -39,50 +39,113 @@ const Education = () => {
 
                     <ul>
                       <li className="custom-li">
-                        <p><a className="font-bold underline" href="https://courses.cs.washington.edu/courses/cse143/">CSE 143</a>
-                          {" "}- Introduction to Computer Programming II</p>
+                        <p>
+                          <a
+                            className="font-bold underline"
+                            href="https://courses.cs.washington.edu/courses/cse143/"
+                          >
+                            CSE 143
+                          </a>{" "}
+                          - Introduction to Computer Programming II
+                        </p>
                       </li>
                       <li className="custom-li">
-                        <p><a className="font-bold underline" href="https://courses.cs.washington.edu/courses/cse311/">CSE 311</a>
-                        {" "}- Foundations of Computing I</p>
+                        <p>
+                          <a
+                            className="font-bold underline"
+                            href="https://courses.cs.washington.edu/courses/cse311/"
+                          >
+                            CSE 311
+                          </a>{" "}
+                          - Foundations of Computing I
+                        </p>
                       </li>
                       <li className="custom-li">
-                        <p><a className="font-bold underline" href="https://courses.cs.washington.edu/courses/cse312/">CSE 312</a>
-                        {" "}- Foundations of Computing II</p>
+                        <p>
+                          <a
+                            className="font-bold underline"
+                            href="https://courses.cs.washington.edu/courses/cse312/"
+                          >
+                            CSE 312
+                          </a>{" "}
+                          - Foundations of Computing II
+                        </p>
                       </li>
                       <li className="custom-li">
-                        <p><a className="font-bold underline" href="https://courses.cs.washington.edu/courses/cse331/">CSE 331</a>
-                        {" "}- Software Design and Implementation</p>
+                        <p>
+                          <a
+                            className="font-bold underline"
+                            href="https://courses.cs.washington.edu/courses/cse331/"
+                          >
+                            CSE 331
+                          </a>{" "}
+                          - Software Design and Implementation
+                        </p>
                       </li>
                       <li className="custom-li">
-                        <p><a className="font-bold underline" href="https://courses.cs.washington.edu/courses/cse332/">CSE 332</a>
-                        {" "}- Data Structures and Parallelism</p>
+                        <p>
+                          <a
+                            className="font-bold underline"
+                            href="https://courses.cs.washington.edu/courses/cse332/"
+                          >
+                            CSE 332
+                          </a>{" "}
+                          - Data Structures and Parallelism
+                        </p>
                       </li>
                       <li className="custom-li">
-                        <p><a className="font-bold underline" href="https://courses.cs.washington.edu/courses/cse391/">CSE 391</a>
-                        {" "}- System and Software Tools</p>
+                        <p>
+                          <a
+                            className="font-bold underline"
+                            href="https://courses.cs.washington.edu/courses/cse391/"
+                          >
+                            CSE 391
+                          </a>{" "}
+                          - System and Software Tools
+                        </p>
                       </li>
-              
-                      
                     </ul>
 
                     <h4 className="py-4">Extracurriculars </h4>
 
-                    <Timeline>
-                      <TimelineItem>
-                        <TimelineOppositeContent display="none"></TimelineOppositeContent>
-                        <TimelineSeparator>
-                          <TimelineDot variant="outlined" />
-                          <TimelineConnector />
-                        </TimelineSeparator>
-                        <TimelineContent>
-                          <p className="font-semibold">WOOF 3D</p>
-                          <ul>
-                            <li className="custom-li ">
-                              <p className="font-semibold">
-                                Outreach Director{" "}
-                              </p>
+                    <ul>
+                      <li className="custom-li">
+                        <p className="font-semibold">WOOF 3D</p>
+
+                        <Timeline>
+                          <TimelineItem>
+                            <TimelineOppositeContent display="none"></TimelineOppositeContent>
+                            <TimelineSeparator>
+                              <TimelineDot variant="outlined" />
+                              <TimelineConnector />
+                            </TimelineSeparator>
+                            <TimelineContent>
+                              <p className="font-semibold">Outreach Director</p>
                               <p className="italic">2022 - Present</p>
+                              <p>
+                                {" "}
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Fusce et odio ex. Curabitur eu
+                                maximus nulla. Class aptent taciti sociosqu ad
+                                litora torquent per conubia nostra, per inceptos
+                                himenaeos. Praesent in ex erat. Aenean sed dui
+                                lectus. Vestibulum ante ipsum primis in faucibus
+                                orci lu
+                              </p>
+                            </TimelineContent>
+                          </TimelineItem>
+
+                          <TimelineItem>
+                            <TimelineOppositeContent display="none"></TimelineOppositeContent>
+                            <TimelineSeparator>
+                              <TimelineDot variant="outlined" />
+                              <TimelineConnector />
+                            </TimelineSeparator>
+                            <TimelineContent>
+                              <p className="font-semibold">
+                                Project and Tech Lead
+                              </p>
+                              <p className="italic">2018 - 2019</p>
                               <p>
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Fusce et odio ex. Curabitur eu
@@ -92,26 +155,11 @@ const Education = () => {
                                 lectus. Vestibulum ante ipsum primis in faucibus
                                 orci lu
                               </p>
-                            </li>
-                            <li className="custom-li">
-                              <p className="font-semibold pt-4">
-                                Project and Tech Lead
-                              </p>
-                              <p className="italic">2021 - 2022</p>
-                              <p className="pb-8">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Fusce et odio ex. Curabitur eu
-                                maximus nulla. Class aptent taciti sociosqu ad
-                                litora torquent per conubia nostra, per inceptos
-                                himenaeos. Praesent in ex erat. Aenean sed dui
-                                lectus. Vestibulum ante ipsum primis in faucibus
-                                orci lu
-                              </p>
-                            </li>
-                          </ul>
-                        </TimelineContent>
-                      </TimelineItem>
-                    </Timeline>
+                            </TimelineContent>
+                          </TimelineItem>
+                        </Timeline>
+                      </li>
+                    </ul>
                   </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -163,7 +211,6 @@ const Education = () => {
                         </Timeline>
                       </li>
 
-
                       <li className="custom-li">
                         <p className="font-semibold">RidgeHacks</p>
 
@@ -175,7 +222,9 @@ const Education = () => {
                               <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent>
-                              <p className="font-semibold">Co-Executive Director</p>
+                              <p className="font-semibold">
+                                Co-Executive Director
+                              </p>
                               <p className="italic">2019 - 2021</p>
                               <p>Lorem ipsum dolor sit amet, consectetur</p>
                             </TimelineContent>
@@ -188,7 +237,9 @@ const Education = () => {
                               <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent>
-                              <p className="font-semibold">Hackathon Organizer</p>
+                              <p className="font-semibold">
+                                Hackathon Organizer
+                              </p>
                               <p className="italic">2018 - 2019</p>
                               <p>Lorem ipsum dolor sit amet, consectetur</p>
                             </TimelineContent>
@@ -196,9 +247,10 @@ const Education = () => {
                         </Timeline>
                       </li>
 
-
                       <li className="custom-li">
-                        <p className="font-semibold">Technology and Engineering Club</p>
+                        <p className="font-semibold">
+                          Technology and Engineering Club
+                        </p>
 
                         <Timeline>
                           <TimelineItem>
@@ -215,7 +267,6 @@ const Education = () => {
                           </TimelineItem>
                         </Timeline>
                       </li>
-
 
                       <li className="custom-li">
                         <p className="font-semibold">Legwork for Lungs</p>
@@ -249,7 +300,6 @@ const Education = () => {
                         </Timeline>
                       </li>
 
-
                       <li className="custom-li">
                         <p className="font-semibold">Varsity Fencing</p>
 
@@ -281,10 +331,6 @@ const Education = () => {
                           </TimelineItem>
                         </Timeline>
                       </li>
-
-                    
-
-
                     </ul>
                   </TimelineContent>
                 </TimelineItem>
