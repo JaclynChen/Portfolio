@@ -7,7 +7,6 @@ import {IoMdSchool} from "react-icons/io";
 //hooks
 import useDarkMode from "../hooks/useDarkMode";
 
-//import { HashLink } from "react-router-hash-link";
 
 const NavBar = () => {
   return (
