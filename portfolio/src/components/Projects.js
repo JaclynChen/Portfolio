@@ -21,7 +21,7 @@ const Projects = () => {
       description: "Website to showcase my work",
       //imgUrl: projImg1,
       link: "/portfolio",
-      tags: ["React", "Javascript", "Tailwind CSS", "Three.js", "In-progress" ],
+      tags: ["React", "Javascript", "Tailwind CSS", "Three.js", "Blender", "In-progress" ],
     },
     {
       title: "Penn Wharton Budget Model",

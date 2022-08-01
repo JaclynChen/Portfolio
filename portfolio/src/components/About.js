@@ -124,7 +124,7 @@ const About = () => {
             </p>
           </li>
           <li className="custom-li">
-            <p className="text-left">SLA and Resin 3D-Printing</p>
+            <p className="text-left">SLA and Resin 3D-Printing, Lasercutting</p>
           </li>
           <li className="custom-li">
             <p className="text-left">IoT Microcontrollers</p>

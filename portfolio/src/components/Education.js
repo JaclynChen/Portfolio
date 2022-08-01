@@ -196,7 +196,7 @@ const Education = () => {
                         <div className="flex">
                           {" "}
                           <h4 className="py-4">Extracurriculars </h4>{" "}
-                          <div className="mt-1">
+                          <div className="relative flex items-center justify-center ">
                             <BiCaretDown size="32" />
                           </div>{" "}
                         </div>
