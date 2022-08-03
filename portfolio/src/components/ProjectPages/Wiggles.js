@@ -1,7 +1,7 @@
 import React from "react";
 
 import { FaGithub, FaLink } from "react-icons/fa";
-import { Nav, Button} from "react-bootstrap";
+import { Button} from "react-bootstrap";
 
 
 const tags = ["Python", "Typescript", "React", "Django",];
