@@ -17,7 +17,7 @@ function App() {
           <Route path="/" element={<Main />} />
 
           <Route path="/portfolio" element={<Portfolio/>} />
-          <Route path="/weeklyWiggles" element={<Wiggles/>} />
+          <Route path="/weeklywiggles" element={<Wiggles/>} />
         </Routes>
       </BrowserRouter>
     </div>
