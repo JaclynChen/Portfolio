@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedinIn, FaEnvelope, FaFileAlt } from "react-icons/fa";
 import { SiDevpost } from "react-icons/si";
 import { Nav, Button } from "react-bootstrap";
 
-import Jaclyn_Chen_Resume_June22 from "../assets/Jaclyn_Chen_Resume_June22.pdf";
+import Jaclyn_Chen_Resume from "../assets/Jaclyn_Chen_Resume_July22.pdf";
 
 import { React, useState } from "react";
 
@@ -15,19 +15,17 @@ const About = () => {
         </div>
 
         <div className="grid justify-items-start">
-          <h2 className="pt-12"> Jaclyn Chen</h2>
+          <h2 className="pt-12"> Jaclyn Chen &#40;she/her&#41;</h2>
 
           <p className="text-left">
-            I'm a student at the University of Washington studying computer
-            science
+            I'm a sophomore at the University of Washington studying computer
+            science.
           </p>
 
           <p className="text-left">
-            I love learning, problem-solving, and creating Lorem ipsum dolor sit
-            amet, consectetur adipiscing elit. Quisque commodo nisl nisi, nec
-            vehicula neque lacinia eget. Mauris vitae tempus nunc, ut elementum
-            nisl. Donec tempus, justo eget consequat malesuada, risus justo
-            rhoncus sem, id aliquet massa dui eget enim. Sed eget tincidunt urna
+            I love learning, problem-solving, and creating. CSE constantly
+            evolves at an intersection of fields from education to medicine. I'm
+            incredibly excited to explore this bustling world of technology.
           </p>
         </div>
 
@@ -47,11 +45,7 @@ const About = () => {
           <EmailIcon />
         </div>
 
-        <a
-          href={Jaclyn_Chen_Resume_June22}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={Jaclyn_Chen_Resume} target="_blank" rel="noopener noreferrer">
           <div className="flex justify-items-center justify-center items-center">
             <Button className="custom-button">
               View resume

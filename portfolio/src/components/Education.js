@@ -29,7 +29,7 @@ const Education = () => {
                   </TimelineSeparator>
                   <TimelineContent>
                     <h3 className="pb-4"> University of Washington</h3>
-                    <p className="italic">2021 - 2024</p>
+                    <p className="italic">2021 - 2025</p>
                     <p>Seattle, WA</p>
                     <p>B.S. in Computer Science</p>
                     <p>
@@ -126,13 +126,9 @@ const Education = () => {
                               <p className="italic">2022 - Present</p>
                               <p>
                                 {" "}
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Fusce et odio ex. Curabitur eu
-                                maximus nulla. Class aptent taciti sociosqu ad
-                                litora torquent per conubia nostra, per inceptos
-                                himenaeos. Praesent in ex erat. Aenean sed dui
-                                lectus. Vestibulum ante ipsum primis in faucibus
-                                orci lu
+                                Coordinate grass-roots workshops for K-12
+                                Education and strengthen collegiate interest in
+                                DFab
                               </p>
                             </TimelineContent>
                           </TimelineItem>
@@ -149,13 +145,9 @@ const Education = () => {
                               </p>
                               <p className="italic">2018 - 2019</p>
                               <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Fusce et odio ex. Curabitur eu
-                                maximus nulla. Class aptent taciti sociosqu ad
-                                litora torquent per conubia nostra, per inceptos
-                                himenaeos. Praesent in ex erat. Aenean sed dui
-                                lectus. Vestibulum ante ipsum primis in faucibus
-                                orci lu
+                                Lead a team to develop software and engineering
+                                processes to convert topographical map data to
+                                3D-printed and aluminum-casted models
                               </p>
                             </TimelineContent>
                           </TimelineItem>
@@ -216,7 +208,12 @@ const Education = () => {
                               <TimelineContent>
                                 <p className="font-semibold">Co-President </p>
                                 <p className="italic">2019 - 2021</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                                <p>
+                                  Devised a weekly workshop and project oriented
+                                  CSE curriculum for high school students and
+                                  worked to build a CS community through local
+                                  events at middle schools and libraries{" "}
+                                </p>
                               </TimelineContent>
                             </TimelineItem>
                           </Timeline>
@@ -237,7 +234,12 @@ const Education = () => {
                                   Co-Executive Director
                                 </p>
                                 <p className="italic">2019 - 2021</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                                <p>
+                                  • Supervised the Sponsorship, Logistics, and
+                                  Outreach teams to organize a successful event
+                                  with $3000 in prizes, 50 participants, and 15
+                                  demoed projects
+                                </p>
                               </TimelineContent>
                             </TimelineItem>
 
@@ -252,7 +254,11 @@ const Education = () => {
                                   Hackathon Organizer
                                 </p>
                                 <p className="italic">2018 - 2019</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                                <p>
+                                  Organized the first 12-hour annual middle and
+                                  high school hackathon to increase CSE
+                                  engagement and accessibility
+                                </p>
                               </TimelineContent>
                             </TimelineItem>
                           </Timeline>
@@ -273,7 +279,10 @@ const Education = () => {
                               <TimelineContent>
                                 <p className="font-semibold">President </p>
                                 <p className="italic">2018 - 2021</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                                <p>
+                                  Designed monthly engineering challenges;
+                                  increased female-male turnout by 40%
+                                </p>
                               </TimelineContent>
                             </TimelineItem>
                           </Timeline>
@@ -292,7 +301,12 @@ const Education = () => {
                               <TimelineContent>
                                 <p className="font-semibold">Vice-President</p>
                                 <p className="italic">2019 - 2021</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                                <p>
+                                  Oversaw the logisitcs team of the annual 5k;
+                                  Broke the Guinness World Record for the
+                                  Longest Hopscotch Course to fundraise for lung
+                                  cancer research (July 2019)
+                                </p>
                               </TimelineContent>
                             </TimelineItem>
 
@@ -305,7 +319,11 @@ const Education = () => {
                               <TimelineContent>
                                 <p className="font-semibold">Treasurer</p>
                                 <p className="italic">2018 - 2019</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                                <p>
+                                  Fundraised/managed accounts for annual 5k for
+                                  lung cancer research at the Memorial Sloan
+                                  Kettering Center
+                                </p>
                               </TimelineContent>
                             </TimelineItem>
                           </Timeline>
@@ -324,7 +342,11 @@ const Education = () => {
                               <TimelineContent>
                                 <p className="font-semibold">Squad Captain</p>
                                 <p className="italic">2019 - 2020</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                                <p>
+                                  Led the team during practice and meets;
+                                  Counties, Santellis, District, and State
+                                  Champions 2019, 2020
+                                </p>
                               </TimelineContent>
                             </TimelineItem>
 
@@ -337,7 +359,11 @@ const Education = () => {
                               <TimelineContent>
                                 <p className="font-semibold">Varsity Fencer</p>
                                 <p className="italic">2018 - 2019</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                                <p>
+                                  Starter for team meets; team placed 3rd at
+                                  States; 2nd place in individuals Frosh Sophs
+                                  Fencing Tournament;
+                                </p>
                               </TimelineContent>
                             </TimelineItem>
                           </Timeline>
