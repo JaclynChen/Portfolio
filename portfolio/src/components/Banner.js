@@ -67,7 +67,7 @@ const Banner = () => {
 
         <House />
 
-        <p className="text-left m-20 text-white mt-44 text-white" id="imgCredit">
+        <p className="text-left ml-20 text-white mt-40 text-white" id="imgCredit">
           Photo by{" "}
           <a href="https://unsplash.com/@asoggetti?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
             Alessio Soggetti
@@ -77,6 +77,7 @@ const Banner = () => {
             Unsplash
           </a>
         </p>
+        <p className="text-left ml-20 text-white text-white" id="imgCredit"> Low Poly Island <a href ="https://skfb.ly/6WMZu"> by davevink </a></p>
       </div>
     </section>
   );
