@@ -66,6 +66,17 @@ const Banner = () => {
         </h2>
 
         <House />
+
+        <p className="text-left m-20 text-white mt-44 text-white" id="imgCredit">
+          Photo by{" "}
+          <a href="https://unsplash.com/@asoggetti?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+            Alessio Soggetti
+          </a>{" "}
+          on{" "}
+          <a href="https://unsplash.com/s/photos/sky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+            Unsplash
+          </a>
+        </p>
       </div>
     </section>
   );

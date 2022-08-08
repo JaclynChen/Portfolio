@@ -50,8 +50,8 @@ html{
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-
-  margin-left: 100px;
+  background-image: url("./assets/img/mountain.jpg");
+  margin-left: 64px;
   height: 1800px; 
 
    
@@ -92,6 +92,10 @@ html{
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+}
+
+#imgCredit{
+  color: white; 
 }
 .banner button {
   color: #fff;

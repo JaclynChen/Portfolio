@@ -7,17 +7,17 @@ import {Suspense, useRef, useState} from 'react'
 const House = () => {
   return (
 
-    <div className="h-full">
+    <div className="h-4/5 w-3/5 block">
 
     <Canvas>  
 
 
      <Suspense fallback={null}>
 
-        <ambientLight/>
+        <ambientLight intensity={0.8}/>
         <Model />
         <OrbitControls enablePan={true}
-                                         enableZoom={true}
+                                         enableZoom={false}
                                          enableRotate={true}/>
 
      </Suspense>
@@ -35,7 +35,7 @@ const House = () => {
 export function Model(props) {
     const { nodes, materials } = useGLTF('/scene.gltf')
     return (
-      <group {...props} dispose={null} scale={0.35} >
+      <group {...props} dispose={null} scale={0.20} >
         <group position={[-0.88, 0.26, 1.8]} rotation={[-Math.PI / 2, 0, 0]}>
           <group position={[0.32, -8.21, 8.04]} rotation={[-0.99, 1.09, 2.02]} />
           <group position={[-16.56, -4.53, 5.02]} rotation={[1.38, -1.37, -0.15]} scale={1.07} />
