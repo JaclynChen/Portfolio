@@ -1,11 +1,11 @@
 import React from "react";
 import ProjectCard from "../templates/CardTemplate";
-//import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
+
 
 //import projImg1 from "../assets/img/project-img1.png";
 
 import "animate.css";
-//import TrackVisibility from "react-on-screen";
+
 
 const Projects = () => {
   const projects = [
@@ -27,22 +27,29 @@ const Projects = () => {
       title: "Penn Wharton Budget Model",
       description: "Visualization tool for transparent economic analysis",
       //imgUrl: projImg1,
-      link: "#home",
-      tags: ["Internship", "Python", "Flask", "NumPy", "Pandas",],
+      link: "/pwbm",
+      tags: ["Internship", "Research", "Python", "Flask", "NumPy", "Pandas",],
     },
     {
       title: "Campus Paths",
       description: "Shortest path visualizer for the UW campus",
       //imgUrl: projImg1,
-      link: "#home",
-      tags: ["Typescript", "React", "Dijkstra's"],
+      link: "/campuspaths",
+      tags: ["Java", "Typescript", "React", "Dijkstra's", "Spark Java"],
     },
     {
       title: "Moonlight",
       description: " Modular led lamp",
       //imgUrl: projImg1,
-      link: "#home",
+      link: "/moonlight",
       tags: ["C/C++", "IoT", "CAD", "3D-Printing", "Woodworking", "In-progress"],
+    },
+    {
+      title: "Tempo",
+      description: "Archive for spotify music",
+      //imgUrl: projImg1,
+      link: "#home",
+      tags: ["React", "Django", "Typescript", "Spotify API", "In-progress"],
     },
     {
       title: "Phoenix",
@@ -50,6 +57,13 @@ const Projects = () => {
       //imgUrl: projImg1,
       link: "#home",
       tags: ["Hackathon", "Python", "Google Cloud Vision", "Flask", "C/C++", "IoT"],
+    },
+    {
+      title: "NASA - Growing Beyond Earth",
+      description: "Enclosure to harvest food in the International Space Station",
+      //imgUrl: projImg1,
+      link: "#home",
+      tags: ["Competition", "Research", "C/C++", "IoT", "CAD", ],
     },
     {
       title: "Topographic Casting",
@@ -99,6 +113,13 @@ const Projects = () => {
       //imgUrl: projImg1,
       link: "#home",
       tags: ["CAD", "3D-printing", "In-progress"],
+    },
+    {
+      title: "Graphics",
+      description: "A collection of random designs and graphics",
+      //imgUrl: projImg1,
+      link: "#home",
+      tags: ["Illustrator", "Photoshop", "Animate", "Procreate", "In-progress"],
     },
     
   ];

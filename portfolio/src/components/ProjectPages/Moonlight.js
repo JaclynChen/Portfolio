@@ -4,24 +4,23 @@ import { FaGithub, FaLink } from "react-icons/fa";
 import { Button} from "react-bootstrap";
 
 
-const tags = ["Python", "Typescript", "React", "Django",];
-
-const Wiggles= () => {
+const tags = ["C/C++", "IoT", "CAD", "3D-Printing", "Woodworking", "In-progress"];
+const Moonlight= () => {
   return (
     <section>
       <div className="about">
-        <h1 className="mt-20 text-center">Weekly Wiggles</h1>
+        <h1 className="mt-20 text-center">Moonlight</h1>
        
 <div className="flex mt-8 justify-center space-x-4">
 
 <a
-          href="https://weekly-wiggles.herokuapp.com/"
+          href="#home"
           target="_blank"
           rel="noopener noreferrer"
         >
           <div className="flex justify-items-center justify-center items-center">
             <Button className="custom-button w-36 justify-center">
-              Website
+              Webapp
               <div className="ml-2">
                 <FaLink size="20" />
               </div>
@@ -30,7 +29,7 @@ const Wiggles= () => {
         </a>
 
         <a
-          href="https://github.com/JaclynChen/weeklyWiggles"
+          href="https://github.com/JaclynChen/moonLight"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -50,21 +49,20 @@ const Wiggles= () => {
 
         <div className="mt-40">
         <h3>What it is</h3>
-        <p  className="mt-4">A space to organize and track learning goals</p>
+        <p  className="mt-4">A modular lamp</p>
 
         </div>
 
         <div className="mt-8">
         <h3>How it was built</h3>
-        <p className="mt-4">Weekly Wiggles was built with a React frontend and Django backend</p>
+        <p className="mt-4"></p>
         </div>
 
 
 
         <div className="mt-8">
         <h3>What I learned</h3>
-        <p className="mt-4">This was my first time creating an application with user
-            registration and authentication.</p>
+        <p className="mt-4"></p>
         
         </div>
         
@@ -92,4 +90,4 @@ const Wiggles= () => {
 
 
 
-export default Wiggles;
+export default Moonlight;
