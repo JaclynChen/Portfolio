@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
+import House from "./House.js";
+
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -51,48 +53,19 @@ const Banner = () => {
 
   return (
     <section className="banner" id="home">
-      <div>
-        <Container>
-          <Row className="align-items-center">
-            <Col xs={12} md={6} xl={7}>
-              <TrackVisibility>
-                {({ isVisible }) => (
-                  <div
-                    className={
-                      isVisible ? "animate__animated animate__fadeIn" : ""
-                    }
-                  >
-                    <h1>{`Hi! I'm Jaclyn`} </h1>
-                    <h2>
-                      <span
-                        className="txt-rotate"
-                        data-period="1000"
-                        data-rotate='["Student", "Explorer" ]'
-                      >
-                        <span className="wrap">{text}</span>
-                      </span>
-                    </h2>
+      <div className="h-full">
+        <h1>{`Hi! I'm Jaclyn`} </h1>
+        <h2>
+          <span
+            className="txt-rotate"
+            data-period="1000"
+            data-rotate='["Student", "Explorer" ]'
+          >
+            <span className="wrap">{text}</span>
+          </span>
+        </h2>
 
-                
-                  </div>
-                )}
-              </TrackVisibility>
-            </Col>
-            <Col xs={12} md={6} xl={5}>
-              <TrackVisibility>
-                {({ isVisible }) => (
-                  <div
-                    className={
-                      isVisible ? "animate__animated animate__zoomIn" : ""
-                    }
-                  >
-                     {/*  <img src={sky} alt="Header Img" /> */}
-                  </div>
-                )}
-              </TrackVisibility>
-            </Col>
-          </Row>
-        </Container>
+        <House />
       </div>
     </section>
   );
