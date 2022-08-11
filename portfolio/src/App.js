@@ -8,6 +8,10 @@ import Wiggles from "./components/ProjectPages/Wiggles";
 import PWBM from "./components/ProjectPages/PWBM";
 import Campus from "./components/ProjectPages/CampusPaths";
 import Moonlight from "./components/ProjectPages/Moonlight";
+import Tempo from "./components/ProjectPages/Tempo";
+import Phoenix from "./components/ProjectPages/Phoenix";
+import GBE  from "./components/ProjectPages/GBE";
+//import  from "./components/ProjectPages/";
 
 
 
@@ -25,6 +29,9 @@ function App() {
           <Route path="/pwbm" element={<PWBM/>} />
           <Route path="/campuspaths" element={<Campus/>} />
           <Route path="/moonlight" element={<Moonlight/>} />
+          <Route path="/tempo" element={<Tempo/>} />
+          <Route path="/phoenix" element={<Phoenix/>} />
+          <Route path="/growingbeyondearth" element={<GBE/>} />
         </Routes>
       </BrowserRouter>
     </div>

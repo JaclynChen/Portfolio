@@ -4,13 +4,13 @@ import { FaGithub, FaLink } from "react-icons/fa";
 import { Button} from "react-bootstrap";
 
 
-const tags = ["Python", "Typescript", "React", "Django",];
+const tags = ["Hackathon", "Python", "Google Cloud Vision", "Flask", "C/C++", "IoT"];
 
-const Wiggles= () => {
+const Phoenix = () => {
   return (
     <section>
       <div className="about">
-        <h1 className="mt-20 text-center">Weekly Wiggles</h1>
+        <h1 className="mt-20 text-center">Phoenix</h1>
        
 <div className="flex mt-8 justify-center space-x-4">
 
@@ -50,12 +50,7 @@ const Wiggles= () => {
 
         <div className="mt-40">
         <h3>What it is</h3>
-        <p  className="mt-4">A space to organize and track learning goals
-        
-
-        
-        I'm someone who scribbles a quick question I have on a piece of paper but then ends up
-        with loose post-its and scrambled writing on scratch paper. 
+        <p  className="mt-4">
         
         
         </p>
@@ -64,15 +59,14 @@ const Wiggles= () => {
 
         <div className="mt-8">
         <h3>How it was built</h3>
-        <p className="mt-4">Weekly Wiggles was built with a React frontend and Django backend</p>
+        <p className="mt-4"></p>
         </div>
 
 
 
         <div className="mt-8">
         <h3>What I learned</h3>
-        <p className="mt-4">This was my first time creating an application with user
-            registration and authentication.</p>
+        <p className="mt-4"></p>
         
         </div>
         
@@ -100,4 +94,4 @@ const Wiggles= () => {
 
 
 
-export default Wiggles;
+export default Phoenix;
