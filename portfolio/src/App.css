@@ -381,3 +381,30 @@ html{
   right: 0;
   z-index: -4;
 }
+
+
+
+/********Project Images *******/
+
+
+//wiggles
+
+
+//portfolio
+ .portfolioProjectImg{
+  /* background-image: url("./assets/img/portfolioProjectImg.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+
+
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./assets/img/mountain.jpg");
+  margin-left: 64px;
+  height: 1800px; 
+
+}
