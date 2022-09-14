@@ -35,7 +35,12 @@ const PWBM = () => {
         <div className="mt-40">
           <h3>What it is</h3>
           <p className="mt-4">A multifaceted visualization tool for Federal Reserve Economic Data to provide accessible
- and transparent economic analysis of public policy</p>
+ and transparent economic analysis of public policy
+
+         I helped develop DataView as a summer intern. America has become increasingly polarized, and it is becoming
+         increasingly difficult for the average American to discern how public policy affects them. 
+ 
+ </p>
         </div>
 
         <div className="mt-8">
